@@ -1,45 +1,62 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Music Genie
+A fun quiz game for music lovers, with a simple design and layout offering a choice of game types and genres of music.
 
-Welcome USER_NAME,
+## UX
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+### User Stories
+1. 
+### The 5 planes of UX
+1. Strategy;
 
-## Gitpod Reminders
+2. Scope;
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+3. Structure;
 
-`python3 -m http.server`
+4. Skeleton;
 
-A blue button should appear to click: _Make Public_,
+5. Surface;
 
-Another blue button should appear to click: _Open Browser_.
+### Wireframes
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+#### Features left to implement 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Technologies Used
+### Languages
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/CSS)
+-   [Javascript](https://www.javascript.com/)
+### Frameworks, programs and libraries 
+-   [Bootstrap was used for responsive design elements and styling of site](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+-   [Fontawesome was used to add icons to site like social media links](https://fontawesome.com/start)
+-   [Google fonts were used to create a custom Typography for the site](https://fonts.google.com/)
+-   [Git was used for version control by using the terminal to commit to git and push to github](https://git-scm.com/)
+-   [Github was used to store the projects code after pushing from git](https://github.com/)
+-   [Balsamiq was used to create wireframes for the site in the design process](https://balsamiq.com/wireframes/?gclid=Cj0KCQiA1KiBBhCcARIsAPWqoSoj-e82t1iFiEmWYmHTNYMSBT8OLneMDOTTAL0S2omCsT7i2NtGn6waAtsLEALw_wcB)
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Testing
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Testing user stories from UX section:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Known bugs
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Deployment
+I deployed the site with my mentor by following the below steps:
+1. Log in to GitHub and go to the project repository
+2. At the top of the repository click the settings button
+3. Scroll down to the github pages section
+4. From the dropdwon menu select the master branch to enable github pages for master branch
+5. The link for the published site can now be found in the github pages section 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Credits
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Content
+- All content was written by myself the developer
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
+### Media
+- All images used are my own property
+### Acknowledgements
