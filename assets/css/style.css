@@ -82,10 +82,11 @@ img {
   width: 100%;
   height: 35vh;
 }
-#time {
+#timer {
   background-color: #a2b9ee;
   width: 100%;
   height: 15vh;
+  display: block;
 }
 #submit-container {
   background-color: #a2b9ee;
