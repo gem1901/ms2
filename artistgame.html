@@ -17,10 +17,27 @@
     </div>
     
     <div id="options-container">
-        <a href="knowledgegame.html"><img src="assets/images/generalknowledge.png" class="rounded float-left" alt="general knowledge game" ></a>
-        <a href="lyricsgame.html"><img src="assets/images/missinglyrics.png" class="rounded mx-auto d-block" alt="fill in the missing lyrics game"></a>
-        <a href="artistgame.html"><img src="assets/images/nametheartist.png" class="rounded float-right" alt="name the artist game"></a>  
-    </div>   
+        <p>Please select an Artist category below:</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="category" id="80s" value="80s" checked>
+            <label class="form-check-label" for="80s">
+              80's
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="category" id="90s" value="90s">
+            <label class="form-check-label" for="90s">
+              90's
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="category" id="movies" value="movies">
+            <label class="form-check-label" for="movies">
+              Movie Soundtracks
+            </label>
+          </div>
+       
+    </div>     
 
     <div id="level-container">
         <p>Please select a difficulty level to continue:</p>
@@ -47,7 +64,7 @@
     </div>
 
     <div id="start-container">
-        <button type="button" class="btn btn-secondary btn-lg" id="start-artist">Start Quiz!</button>
+        <button type="submit" class="btn btn-secondary btn-lg" id="start-artist">Start Quiz!</button>
     </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
