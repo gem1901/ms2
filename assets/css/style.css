@@ -10,14 +10,14 @@ html, body {
 }
 body{
     font-family: 'Noto Sans JP', sans-serif;
-    color: #777777;
+    color: #3a3b3c;
     background-color: #a2b9ee;
 }
-h3 {
-    color: #777777;
-    font-family: 'Nota Sans Jp';
-    font-weight: 150;
-    font-size: medium;
+p{
+    color: #616161;
+    font-family: 'Nota Sans JP';
+    font-weight: 100;
+    font-size: 15px;
 }
 img {
     max-width: 100%;
@@ -25,23 +25,29 @@ img {
 }
 #header{
   width: 100%;
-  height: 300px;
+  height: 30vh;
+  background-color: #a2b9ee;
 }
 #user-container{
   width: 100%;
-  height: 300px;
+  height: 20vh;
+  background-color: #a2b9ee;
+  text-align: center;
+
 
 }
 #options-container{
   width: 100%;
-  height: 750px;
+  height: 50vh;
+  background-color: #a2b9ee;
 }
 #logo {
-    width: 240px;
-    height: 240px;
+    width: 30vw;
+    height: 30vh;
     align-content: center;
-    padding: 0;
+    padding: 10px;
     clear: both;
     position: relative;
+    margin: auto;
 
 }
