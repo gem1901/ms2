@@ -15,11 +15,23 @@
             <img src="assets/images/logo.png" alt="Music Genie" style='height: 100%; width: 100%; object-fit: contain'>
         </div>
     </div>
+    
     <div id="user-container">
-        <h3>Please provide a username below and select a game to continue:</h3>
-        <input type=""
+        <p>Please provide a username below and select a game to continue:</p>
+        <div class="input-group flex-nowrap">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="addon-wrapping">@</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" required>
+          </div>
+        
     </div>
-    <div id="options-container"></div>    
+    <div id="options-container">
+        <a href="knowledgegame.html"><img src="assets/images/generalknowledge.png" class="rounded float-left" alt="general knowledge game" ></a>
+        <a href="lyricsgame.html"><img src="assets/images/missinglyrics.png" class="rounded mx-auto d-block" alt="fill in the missing lyrics game"></a>
+        <a href="artistgame.html"><img src="assets/images/nametheartist.png" class="rounded float-right" alt="name the artist game"></a>  
+    </div>   
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
