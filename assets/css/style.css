@@ -15,13 +15,14 @@ body{
 }
 p{
     color: #616161;
-    font-family: 'Nota Sans JP';
+    font-family: 'Noto Sans JP', sans-serif;
     font-weight: 100;
-    font-size: 15px;
+    font-size: 25px;
 }
 img {
-    max-width: 100%;
-    max-height: 100%;
+  width: 120px;
+  height: 120px;
+    
 }
 #header{
   width: 100%;
@@ -30,24 +31,64 @@ img {
 }
 #user-container{
   width: 100%;
-  height: 20vh;
+  height: 25vh;
   background-color: #a2b9ee;
   text-align: center;
-
-
 }
 #options-container{
   width: 100%;
-  height: 50vh;
+  height: 45vh;
   background-color: #a2b9ee;
+}
+#options-container div{
+  width: 25vw;
+  height: 25vh;
+  float: left;
+  padding: 15px;
+  text-align: center;
+  margin: 10px;
 }
 #logo {
     width: 30vw;
-    height: 30vh;
+    height: 25vh;
     align-content: center;
     padding: 10px;
     clear: both;
     position: relative;
     margin: auto;
-
+}
+#level-container {
+  background-color: #a2b9ee;
+  width: 100%;
+  height: 25vh;
+}
+#start-container {
+  background-color: #a2b9ee;
+  width: 100%;
+  height: 20vh;
+}
+#results-message {
+  background-color: #a2b9ee;
+  width: 100%;
+  height: 40vh;
+}
+#start-again {
+  background-color: #a2b9ee;
+  width: 100%;
+  height: 30vh;
+}
+#game-container {
+  background-color: #a2b9ee;
+  width: 100%;
+  height: 35vh;
+}
+#time {
+  background-color: #a2b9ee;
+  width: 100%;
+  height: 15vh;
+}
+#submit-container {
+  background-color: #a2b9ee;
+  width: 100%;
+  height: 20vh;
 }

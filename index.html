@@ -15,7 +15,7 @@
             <img src="assets/images/logo.png" alt="Music Genie" style='height: 100%; width: 100%; object-fit: contain'>
         </div>
     </div>
-    
+
     <div id="user-container">
         <p>Please provide a username below and select a game to continue:</p>
         <div class="input-group flex-nowrap">
@@ -27,9 +27,19 @@
         
     </div>
     <div id="options-container">
-        <a href="knowledgegame.html"><img src="assets/images/generalknowledge.png" class="rounded float-left" alt="general knowledge game" ></a>
-        <a href="lyricsgame.html"><img src="assets/images/missinglyrics.png" class="rounded mx-auto d-block" alt="fill in the missing lyrics game"></a>
-        <a href="artistgame.html"><img src="assets/images/nametheartist.png" class="rounded float-right" alt="name the artist game"></a>  
+        <div class="row">
+            <div class="col">
+                <a href="knowledgegame.html"><img src="assets/images/generalknowledge.png" alt="general knowledge game" id="game-select-btn"></a>
+            </div>
+            <div class="col">
+                <a href="lyricsgame.html"><img src="assets/images/missinglyrics.png" alt="missing lyrics game" id="game-select-btn"></a>
+
+            </div>
+            <div class="col">
+                <a href="artistgame.html"><img src="assets/images/nametheartist.png" alt="name the artist game" id="game-select-btn"></a>
+            </div>
+        
+        </div>  
     </div>   
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
