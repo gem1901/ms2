@@ -958,328 +958,574 @@ correctAnswer: "b"
 },
 function displayArtist90sQ () {
     let artist90sQuestions = [
-      {   question: "Dummy Q1?",
+      {   question: "Name the artist who sang 'Kiss Me'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Toploader",
+              b: "Take That",
+              c: "Sixpence None The Richer"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q2?",
+        {   question: "Name the artist who sang 'Torn'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Cher",
+              b: "Britney Spears",
+              c: "Natalie Imbruglia"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q3?",
+        {   question: "Name the artist who sang 'Hand in My Pocket'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Avril Lavigne",
+              b: "Alanis Morrissette",
+              c: "Aaliyah"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'MMMBop'?",
+            answers: {
+              a: "Hanson",
+              b: "Ace of Base",
+              c: "Will Smith"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Ghetto Superstar'?",
+            answers: {
+              a: "Vanilla Ice",
+              b: "MC Hammer",
+              c: "Pras"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q4?",
+        {   question: "Name the artist who sang 'U Can't Touch this'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Mase",
+              b: "MC Hammer",
+              c: "Vitamin C"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Lovefool'?",
+            answers: {
+              a: "The Cardigans",
+              b: "The Pretenders",
+              c: "Train"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Linger'?",
+            answers: {
+              a: "Semisonic",
+              b: "Eagle-Eye Cherry",
+              c: "The Cranberries"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q5?",
+        {   question: "Name the artist who sang 'Superman(it's not easy)'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Nirvana",
+              b: "Five For Fighting",
+              c: "No Doubt"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Save Tonight'?",
+            answers: {
+              a: "Eagle-Eye Cherry",
+              b: "Toplaoder",
+              c: "The Goo Goo Dolls"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Dare To Move'?",
+            answers: {
+              a: "Mr. Big",
+              b: "Lifehouse",
+              c: "Switchfoot"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q6?",
+        {   question: "Name the artist who sang 'Iris'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Lou Bega",
+              b: "The Goo Goo Dolls",
+              c: "Byran Adams"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Blurry'?",
+            answers: {
+              a: "Puddle Of Mudd",
+              b: "Nirvana",
+              c: "Korn"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Closing Time'?",
+            answers: {
+              a: "Mr. Big",
+              b: "Semisonic",
+              c: "Train"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Breakfast At Tiffany's'?",
+            answers: {
+              a: "No Doubt",
+              b: "Crowded House",
+              c: "Deep Blue Something"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q7?",
+        {   question: "Name the artist who sang 'Weather With You'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Crowded House",
+              b: "Lifehouse",
+              c: "Lighthouse Family"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'The Sign'?",
+            answers: {
+              a: "Britney Spears",
+              b: "Cher",
+              c: "Ace Of Base"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q8?",
+        {   question: "Name the artist who sang 'Man! I Feel Like A Woman!'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Christina Aguilera",
+              b: "Shania Twain",
+              c: "P!nk"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Livin' la Vida Loca'?",
+            answers: {
+              a: "Lou Bega",
+              b: "Coolio",
+              c: "Ricky Martin"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q9?",
+        {   question: "Name the artist who sang 'I Want It That Way'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Backstreet Boys",
+              b: "N'Sync",
+              c: "Boyzone"
+            },
+            correctAnswer:"a",
+          },
+            {   question: "Name the artist who sang 'Sweetest Thing'?",
+            answers: {
+              a: "Blur",
+              b: "U2",
+              c: "Oasis"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'You Get What You Give'?",
+            answers: {
+              a: "New Radicals",
+              b: "TLC",
+              c: "Texas"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'No Scrubs'?",
+            answers: {
+              a: "Janet Jackson",
+              b: "Aaliyah",
+              c: "TLC"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q10?",
+        {   question: "Name the artist who sang 'Killing Me Softly With His Song'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Eternal",
+              b: "Fugees",
+              c: "Black Eyed Peas"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Bitter Sweet Symphony'?",
+            answers: {
+              a: "The Verve",
+              b: "Crowded House",
+              c: "U2"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'How Deep Is Your Love'?",
+            answers: {
+              a: "Wet Wet Wet",
+              b: "Blue",
+              c: "Take That"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q11?",
+        {   question: "Name the artist who sang 'What's Up?'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Natalie Imbruglia",
+              b: "4 Non Blondes",
+              c: "Extreme"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'More Than Words'?",
+            answers: {
+              a: "Bryan Adams",
+              b: "Boyzone",
+              c: "Extreme"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q12?",
+        {   question: "Name the artist who sang 'Wonderwall'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Blur",
+              b: "Oasis",
+              c: "Tom Petty"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'There She Goes'?",
+            answers: {
+              a: "The Cure",
+              b: "Sixpence None The Richer",
+              c: "The La's"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q13?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q14?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q15?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q16?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q17?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q18?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q19?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q20?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
+        
         
     ];
 
 },
-function displayArtistMoviesQ () {
-    let artistMoviesQuestions = [
-      {   question: "Dummy Q1?",
+function displayArtist00sQ () {
+    let artist00sQuestions = [
+      
+      {   question: "Name the artist who sang 'I'm Like A Bird'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "All Saints",
+              b: "Anatasia",
+              c: "Nelly Furtado"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q2?",
+        {   question: "Name the artist who sang 'It Wasn't Me'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Shaggy",
+              b: "Usher",
+              c: "Justin Timberlake"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'She Will Be Loved'?",
+            answers: {
+              a: "Justin Beiber",
+              b: "Maroon 5",
+              c: "Craig David"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang '7 Days'?",
+            answers: {
+              a: "Craig David",
+              b: "P Diddy",
+              c: "Ronan Keating"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Breathless'?",
+            answers: {
+              a: "Christina Aguilera",
+              b: "The Cranberries",
+              c: "The Corrs"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q3?",
+        {   question: "Name the artist who sang 'Keep On Movin''?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Five",
+              b: "Madonna",
+              c: "Atomic Kitten"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Lady'?",
+            answers: {
+              a: "Toploader",
+              b: "Modjo",
+              c: "Robbie Williams"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Angels'?",
+            answers: {
+              a: "Ronan Keating",
+              b: "Robbie Williams",
+              c: "Ricky Martin"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'If You're Not The One'?",
+            answers: {
+              a: "Will Young",
+              b: "Daniel Powter",
+              c: "Daniel Bedingfield"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q4?",
+        {   question: "Name the artist who sang 'Evergreen'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Gareth Gates",
+              b: "Will Young",
+              c: "Enrique Iglesias"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Hero'?",
+            answers: {
+              a: "Enrique Iglesias",
+              b: "Ronan Keating",
+              c: "Gary Barlow"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Freak Like Me'?",
+            answers: {
+              a: "Spice Girls",
+              b: "Sugababes",
+              c: "Destiny's Child"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Just A Little'?",
+            answers: {
+              a: "P!nk",
+              b: "Atomic kitten",
+              c: "Liberty X"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q5?",
+        {   question: "Name the artist who sang 'Get the Party Started'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "P!nk",
+              b: "Britney Spears",
+              c: "DJ Sammy"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Dirrty'?",
+            answers: {
+              a: "Aaliyah",
+              b: "Beyonce",
+              c: "Christina Aguilera"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q6?",
+        {   question: "Name the artist who sang 'All The things She Said'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Blink 182",
+              b: "Tatu",
+              c: "Frankie"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Breathe'?",
+            answers: {
+              a: "Blu Cantrell",
+              b: "Britney Spears",
+              c: "Ciara"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Goodies'?",
+            answers: {
+              a: "Ciara",
+              b: "TLC",
+              c: "The Pussycat Dolls"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Buttons'?",
+            answers: {
+              a: "Atomic kitten",
+              b: "The Pussycat Dolls",
+              c: "S Club 7"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Crazy'?",
+            answers: {
+              a: "Timberland",
+              b: "Usher",
+              c: "Gnarls Barkley"
+            },
+            correctAnswer: "c"
+          },
+          {   question: "Name the artist who sang 'All About You?",
+            answers: {
+              a: "Blue",
+              b: "McFly",
+              c: "Westlife"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'You're Beautiful?",
+            answers: {
+              a: "Robbie Williams",
+              b: "James Blunt",
+              c: "Shayne Ward
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'So Sick'?",
+            answers: {
+              a: "Neyo",
+              b: "Rihanna",
+              c: "Craig David"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Apologise'?",
+            answers: {
+              a: "One Republic",
+              b: "Snow Patrol",
+              c: "Kaiser Chefs"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Umbrella'?",
+            answers: {
+              a: "Gwen Stefania",
+              b: "Rihanna",
+              c: "Robyn"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Stronger''?",
+            answers: {
+              a: "Dizzee Rascal",
+              b: "City High",
+              c: "Kanye West"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q7?",
+        {   question: "Name the artist who sang 'Just Dance'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Rihanna",
+              b: "Lady Gaga",
+              c: "Kelly Rowland"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Always On Time'?",
+            answers: {
+              a: "Cassie",
+              b: "Aaliyah",
+              c: "Ashanti"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q8?",
+        {   question: "Name the artist who sang 'Complicated?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Avril Lavigne",
+              b: "Christina Aguilera",
+              c: "Tatu"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Rise'?",
+            answers: {
+              a: "Natalie Imbruglia",
+              b: "Gabrielle",
+              c: "Samantha Mumba"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Chasing Cars'?",
+            answers: {
+              a: "Disturbed",
+              b: "Radiohead",
+              c: "Snow Patrol"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q9?",
+        {   question: "Name the artist who sang 'Hips Don't Lie'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Spice Girls",
+              b: "Shakira",
+              c: "Black Eyed Peas"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Yeah!'?",
+            answers: {
+              a: "P!nk",
+              b: "Usher",
+              c: "Katy Perry"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'America'?",
+            answers: {
+              a: "Razorlight",
+              b: "Snow Patrol",
+              c: "Scissor Sisters"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Sex On Fire'?",
+            answers: {
+              a: "Linkin Park",
+              b: "Mumford and Sons",
+              c: "Kings Of Leon"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q10?",
+        {   question: "Name the artist who sang 'I Gotta Feeling'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "Lady Gaga",
+              b: "Shakira",
+              c: "Black Eyed Peas"
             },
             correctAnswer: "c"
         },
-        {   question: "Dummy Q11?",
+        {   question: "Name the artist who sang 'I Believe In A Thing Called Love'?",
             answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
+              a: "The Darkness",
+              b: "Fall out Boy",
+              c: "Nickelback"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Rise'?",
+            answers: {
+              a: "Gabrielle",
+              b: "All Saints",
+              c: "Kylie"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Pure Shores'?",
+            answers: {
+              a: "Atomic kitten",
+              b: "All Saints",
+              c: "Duffy"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'American Pie'?",
+            answers: {
+              a: "Ciara",
+              b: "Eve",
+              c: "Madonna"
             },
             correctAnswer: "c"
-        },
-        {   question: "Dummy Q12?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q13?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q14?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q15?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q16?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q17?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q18?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q19?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
-            correctAnswer: "c"
-        },
-        {   question: "Dummy Q20?",
-            answers: {
-              a: "yes",
-              b: "no",
-              c: "maybe"
-            },
+          },
     ];
 
 },
