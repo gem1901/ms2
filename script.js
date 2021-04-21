@@ -1526,6 +1526,86 @@ function displayArtist00sQ () {
             },
             correctAnswer: "c"
           },
+          {   question: "Name the artist who sang 'Teenage Dirtbag'?",
+            answers: {
+              a: "Disturbed",
+              b: "Wheatus",
+              c: "Blink 182"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Mr. Brightside?",
+            answers: {
+              a: "Kaiser Chefs",
+              b: "Razorlight",
+              c: "The Killers"
+            },
+            correctAnswer: "c"
+        },
+        {   question: "Name the artist who sang 'Follow Me'?",
+            answers: {
+              a: "Gavin DeGraw",
+              b: "Uncle Kracker",
+              c: "Daniel Merriweather"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'Best Of You'?",
+            answers: {
+              a: "Foo Fighters",
+              b: "Korn",
+              c: "Greenday"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Wherever You Will Go'?",
+            answers: {
+              a: "Snow Patrol",
+              b: "The Temper Trap",
+              c: "The Calling"
+            },
+            correctAnswer: "c"
+        },
+        {   question: "Name the artist who sang 'Rockstar'?",
+            answers: {
+              a: "Nickelback",
+              b: "Travis",
+              c: "P!nk"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Clocks'?",
+            answers: {
+              a: "The Script",
+              b: "Coldplay",
+              c: "The Killers"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'White Flag'?",
+            answers: {
+              a: "Dido",
+              b: "All Saints",
+              c: "Norah Jones"
+            },
+            correctAnswer: "a"
+        },
+        {   question: "Name the artist who sang 'Dancing On My Own'?",
+            answers: {
+              a: "Sophie Ellis-Bextor",
+              b: "Robyn",
+              c: "Duffy"
+            },
+            correctAnswer: "b"
+        },
+        {   question: "Name the artist who sang 'I'm Outta Love?",
+            answers: {
+              a: "Sonique",
+              b: "Melanie C",
+              c: "Anatasia"
+            },
+            correctAnswer: "c"
+          },
     ];
 
 },
