@@ -1,0 +1,68 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+:root{
+    --hue-neutral:#a2b9ee;
+    --hue-correct:#33cc66;
+    --hue-wrong:#dd0000;
+
+}
+
+body{
+    --hue:var(--hue-neutral);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+body.correct {
+    --hue:var(--hue-correct);
+
+}
+body.wrong {
+    --hue:var(--hue-wrong);
+
+}
+
+.game-container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+.btn-grid{
+    display: grid;
+    gap: 5px;
+    margin: 20px 0;
+}
+.btn{
+    --hue:var(--hue-neutral);
+    border:1px solid #616161;
+    background-color: #adeee2;
+    border-radius: 5px;
+    padding: 5px 5px;
+    outline: none;
+}
+.btn:hover{
+    border-color: yellow;
+}
+.btn.correct{
+    --hue:var(--hue-correct);
+
+}
+.btn.wrong{
+    --hue:var(--hue-wrong);
+
+}
+.start-btn, .next-btn{
+    
+}
