@@ -1,15 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     let buttons = document.getElementsByTagName("button");
     for (let button of buttons) {
-      button.addEventListener('click', function)
-
+      button.addEventListener('click',function(){})
     }
-}
-,function gameChoices() {
-
-}
-,function runGeneralKnowGame() {
-
 }
 ,document.getElementById("lyricsCategories").addEventListener("click", lyricsCategories)
 ,function lyricsCategories() {
@@ -38,6 +31,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 <button class="btn btn-lg" type="submit">90s</button>
                 <button class="btn btn-lg" type="submit">00s</button>       
          </div>`
+
+}
+,function runGeneralKnowGame() {
 
 }
 ,function runPre90sGame() {
