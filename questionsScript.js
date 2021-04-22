@@ -1,29 +1,29 @@
 let generalKnowledgeQuestions = [
-    {   question: "Dummy Q1?",
+    {   question: "What was the name of Madonna's first studio album?",
         answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
+          a: "Like A Prayer",
+          b: "Hoilday",
+          c: "Madonna"
         },
         correctAnswer: "c"
     }
-    ,{   question: "Dummy Q2?",
+    ,{   question: "Ringo Star was not the original drummer for the Beatles - but who was?",
         answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
+          a: "Tom Carter",
+          b: "Pete Best",
+          c: "Roger Moore"
         },
-        correctAnswer: "c"
+        correctAnswer: "b"
     }
-    ,{   question: "Dummy Q3?",
+    ,{   question: "Which famous singer is the sister of the R'n'B artist Solange?",
         answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
+          a: "Beyonce",
+          b: "Rihanna",
+          c: "Nicki Minaj"
         },
-        correctAnswer: "c"
+        correctAnswer: "a"
     }
-   ,{   question: "Dummy Q4?",
+   ,{   question: "Name the singer who is th ?",
         answers: {
           a: "yes",
           b: "no",
