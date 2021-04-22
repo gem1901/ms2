@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Roboto&display=swap');
-
 *{ margin: 0;
     padding: 0;
     border: 0;
@@ -13,11 +11,7 @@ body{
     color: #3a3b3c;
     background-color: #a2b9ee;
 }
-p{
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight: 100;
-    font-size: 25px;
-}
+
 img {
   width: 120px;
   height: 120px;
@@ -28,25 +22,7 @@ img {
   height: 30vh;
   background-color: #a2b9ee;
 }
-#user-container{
-  width: 100%;
-  height: 25vh;
-  background-color: #a2b9ee;
-  text-align: center;
-}
-#options-container{
-  width: 100%;
-  height: 45vh;
-  background-color: #a2b9ee;
-}
-#options-container div{
-  width: 25vw;
-  height: 25vh;
-  float: left;
-  padding: 15px;
-  text-align: center;
-  margin: 10px;
-}
+
 #logo {
     width: 30vw;
     height: 25vh;
@@ -56,41 +32,83 @@ img {
     position: relative;
     margin: auto;
 }
-#level-container {
-  background-color: #a2b9ee;
-  width: 100%;
-  height: 25vh;
+*, *::before, *::after{
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
 }
-#start-container {
-  background-color: #a2b9ee;
-  width: 100%;
-  height: 20vh;
+
+:root{
+  --hue-neutral:#a2b9ee;
+  --hue-correct:#33cc66;
+  --hue-wrong:#dd0000;
+
 }
-#results-message {
-  background-color: #a2b9ee;
-  width: 100%;
-  height: 40vh;
+
+body{
+  --hue:var(--hue-neutral);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  width: 100vw;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+
+
 }
-#start-again {
-  background-color: #a2b9ee;
-  width: 100%;
-  height: 30vh;
+body.correct {
+  --hue:var(--hue-correct);
+
 }
-#game-container {
-  background-color: #a2b9ee;
-  width: 100%;
-  height: 35vh;
+body.wrong {
+  --hue:var(--hue-wrong);
+
 }
-#timer {
-  background-color: #a2b9ee;
-  width: 100%;
-  height: 15vh;
-  display: block;
+
+.game-container {
+  width: 800px;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 0 10px 2px;
 }
-#submit-container {
-  background-color: #a2b9ee;
-  width: 100%;
-  height: 20vh;
+.btn-grid{
+  display: grid;
+  gap: 5px;
+  margin: 20px 0;
+}
+.btn{
+  --hue:var(--hue-neutral);
+  border:1px solid #616161;
+  background-color: #adeee2;
+  border-radius: 5px;
+  padding: 5px 5px;
+  outline: none;
+}
+.btn:hover{
+  border-color: yellow;
+}
+.btn.correct{
+  --hue:var(--hue-correct);
+
+}
+.btn.wrong{
+  --hue:var(--hue-wrong);
+
+}
+.start-btn, .next-btn{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.controls{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hide{
+  display: none;
 }
 
 
