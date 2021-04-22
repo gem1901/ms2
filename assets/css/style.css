@@ -50,6 +50,7 @@ img {
 #welcome-message {
   font-family: 'Dosis', sans-serif;
   letter-spacing: 1px;
+  margin-bottom: 20px;
 }
 #username {
   height: 40px;
@@ -65,6 +66,7 @@ img {
 }
 #lightbulb {
   font-size: 30px;
+  margin-bottom: 20px;
 }
 div .btn{
   letter-spacing: 1px;

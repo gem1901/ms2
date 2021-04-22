@@ -23,37 +23,37 @@ let generalKnowledgeQuestions = [
         },
         correctAnswer: "a"
     }
-   ,{   question: "Name the singer who is th ?",
+   ,{   question: "Name the singer who is tho only person to have performed more than one James Bond theme song?",
         answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
+          a: "Adele",
+          b: "Tina Turner",
+          c: "Shirley Bassey"
         },
         correctAnswer: "c"
     }
-    ,{   question: "Dummy Q5?",
+    ,{   question: "How long did Prince's Purple Rain album stay in the US charts?",
         answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
+          a: "122 weeks",
+          b: "76 weeks",
+          c: "154 weeks"
+        },
+        correctAnswer: "a"
+    }
+    ,{   question: "Which British band released 'You're Gorgeous' in 1996?",
+        answers: {
+          a: "Blur",
+          b: "The Buggles",
+          c: "Babybird"
         },
         correctAnswer: "c"
     }
-    ,{   question: "Dummy Q6?",
+    ,{   question: "Who were the original band to release Wet Wet Wet's big hit 'Love Is All Around'?",
         answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
+          a: "The Hollys",
+          b: "The Troggs",
+          c: "The Hoggs"
         },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q7?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
+        correctAnswer: "b"
     }
     ,{   question: "Dummy Q8?",
         answers: {
@@ -341,166 +341,214 @@ let lyricsPreQuestions =[
     ];
     
        let lyricsPostQuestions =[
-        {   question: "Dummy Q1?",
+        {   question: "Fill in the missing Oasis lyric:'Today is gonna be the day, That they're gonna __ it back to you'",
               answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
+                a: "sing",
+                b: "bring",
+                c: "throw"
               },
               correctAnswer: "c"
           },
-          {   question: "Dummy Q2?",
+          {   question: "Fill in the missing TLC lyric: 'A scrub is a guy that can't get no love from me, __ out the passenger side of his best friend's ride'",
               answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
+                a: "smoking",
+                b: "hanging",
+                c: "shouting"
+              },
+              correctAnswer: "b"
+          },
+          {   question: "Fill in the missing Spice Girls lyric: 'If you want my future, forget my past, If you wanna get with me, better make it __'",
+              answers: {
+                a: "last",
+                b: "fast",
+                c: "good"
+              },
+              correctAnswer: "b"
+          },
+          {   question: "Fill in the missing Wheatus lyric: 'Yeah, I'm just a teenage dirtbag baby, Listen to __ __ baby with me'",
+              answers: {
+                a: "Toni Braxton",
+                b: "Limp Bizkit",
+                c: "Iron Maiden"
               },
               correctAnswer: "c"
           },
-          {   question: "Dummy Q3?",
+          {   question: "Fill in the missing Britney Spears lyric: 'Baby can't you see I'm __, A guy like you should wear a warning'",
               answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
+                a: "crying",
+                b: "falling",
+                c: "calling"
               },
               correctAnswer: "c"
           },
-          {   question: "Dummy Q4?",
+          {   question: "Fill in the missing Kesha lyric: 'Don't stop, make it __, DJ, blow my speakers up",
               answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
+                a: "drop",
+                b: "pop",
+                c: "stop"
+              },
+              correctAnswer: "b"
+          },
+          {   question: "Fill in the missing Justin Bieber lyric: 'I got my __ out in Georgia'",
+              answers: {
+                a: "peeps",
+                b: "freaks",
+                c: "peaches"
               },
               correctAnswer: "c"
           },
-          {   question: "Dummy Q5?",
+          {   question: "Fill in the missing Kelis lyric: 'Damn right it's better than yours, I can __ you , but I have to charge'",
               answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
+                a: "teach",
+                b: "meet",
+                c: "feed"
+              },
+              correctAnswer: "a"
+          },
+          {   question: "Fill in the missing Taylor Swift lyric: ''Cause baby now we got bad blood, You know it used to be mad __'",
+              answers: {
+                a: "times",
+                b: "love",
+                c: "fun"
+              },
+              correctAnswer: "b"
+          },
+          {   question: "Fill in the missing Vance Joy lyric:'I was scared of __ and the dark, I was scared of Pretty girls and starting conversations'",
+              answers: {
+                a: "shadows",
+                b: "creatures",
+                c: "dentists"
               },
               correctAnswer: "c"
           },
-          {   question: "Dummy Q6?",
+          {   question: "Fill in the missing Celine Dion lyric: 'Near, far, wherever you are, I believe that the __ does go on'",
               answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
+                a: "life",
+                b: "heart",
+                c: "soul"
+              },
+              correctAnswer: "b"
+          },
+          {   question: "Fill in the missing R Kelly lyric: 'I believe I can fly, I believe I can __ the sky'",
+              answers: {
+                a: "reach",
+                b: "touch",
+                c: "fly"
+              },
+              correctAnswer: "b"
+          },
+          {   question: "Fill in the missing Rascal Flatts lyric: 'If you're going my way, Well, I wanna __ it all night long",
+              answers: {
+                a: "plan",
+                b: "ride",
+                c: "drive"
               },
               correctAnswer: "c"
           },
-          {   question: "Dummy Q7?",
+          {   question: "Fill in the missing Lady Gaga lyric: 'I want your ugly, I want your __, I want everything as long as it's free'",
               answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
+                a: "apologies",
+                b: "disease",
+                c: "voice"
+              },
+              correctAnswer: "b"
+          },
+          {   question: "Fill in the missing Katy Perry lyric: 'You make me feel like I'm livin' a __ dream'",
+              answers: {
+                a: "teenage",
+                b: "scary",
+                c: "perfect"
+              },
+              correctAnswer: "a"
+          },
+          {   question: "Fill in the missing Billie Eilis lyric: 'So you're a __ guy, Like it really rough guy'",
+              answers: {
+                a: "lame",
+                b: "buff",
+                c: "tough"
               },
               correctAnswer: "c"
           },
-          {   question: "Dummy Q8?",
+          {   question: "Fill in the missing SNAP! lyric: 'Rhythm is a dancer, It's a __ companion'",
               answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
+                a: "soul's",
+                b: "friend's",
+                c: "life"
+              },
+              correctAnswer: "a"
+          },
+          {   question: "Fill in the missing Mark Morrison lyric: 'Return of the __ Once again'",
+              answers: {
+                a: "rhythm",
+                b: "DJ",
+                c: "mack"
               },
               correctAnswer: "c"
           },
-          {   question: "Dummy Q9?",
+          {   question: "Fill in the missing Ronan Keating lyric:'The touch of your hands says you'll catch me wherever I fall, You __ it best, when you say nothing at all'",
               answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
+                a: "say",
+                b: "do",
+                c: "tell"
               },
-              correctAnswer: "c"
+              correctAnswer: "a"
           },
-          {   question: "Dummy Q10?",
+          {   question: "Fill in the missing Goo Goo Dolls Lyric: 'And I don't want the world to __ me, 'Cause I don't think that they'd understand'",
               answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
+                a: "be",
+                b: "see",
+                c: "hear"
               },
-              correctAnswer: "c"
+              correctAnswer:"b"
+            },
+          {   question: "Fill in the missing Sia lyric: 'Gotta do my hair, put my make-up on, It's __ night, and it won't be long' ",
+            answers: {
+              a: "Saturday",
+              b: "Wednesday",
+              c: "Friday"
+            },
+            correctAnswer:"c"
           },
-          {   question: "Dummy Q11?",
-              answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
-              },
-              correctAnswer: "c"
+          {   question: "Fill in the missing Take That lyric: 'Today this could be, the __ day of our lives, Before it all ends before we run out of time'",
+            answers: {
+              a: "greatest",
+              b: "best",
+              c: "happiest"
+            },
+            correctAnswer:"a"
           },
-          {   question: "Dummy Q12?",
-              answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
-              },
-              correctAnswer: "c"
+          {   question: "Fill in the missing Cranberries lyric: 'With their tanks, and their bombs, and their __, In your head in your head they are crying' ",
+            answers: {
+              a: "troops",
+              b: "tanks",
+              c: "guns"
+            },
+            correctAnswer:"c"
           },
-          {   question: "Dummy Q13?",
-              answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
-              },
-              correctAnswer: "c"
+          {   question: "Fill in the missing B*Witched lyric: 'Say you will, say you won't, Say you'll do what I __' ",
+            answers: {
+              a: "can't",
+              b: "don't",
+              c: "won't"
+            },
+            correctAnswer:"b"
           },
-          {   question: "Dummy Q14?",
-              answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
-              },
-              correctAnswer: "c"
+          {   question: "Fill in the missing The Script lyric: ''Cause one day you'll wake up and find that you're missing me, And your heart starts to __ where on this earth I could be'",
+            answers: {
+              a: "wonder",
+              b: "miss",
+              c: "race"
+            },
+            correctAnswer:"a"
           },
-          {   question: "Dummy Q15?",
-              answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
-              },
-              correctAnswer: "c"
+          {   question: "Fill in the missing Shakira lyric: 'I never really knew that she could dance like this, She make a man wanst to speak __'",
+            answers: {
+              a: "English",
+              b: "French",
+              c: "Spanish"
+            },
+            correctAnswer:"b"
           },
-          {   question: "Dummy Q16?",
-              answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
-              },
-              correctAnswer: "c"
-          },
-          {   question: "Dummy Q17?",
-              answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
-              },
-              correctAnswer: "c"
-          },
-          {   question: "Dummy Q18?",
-              answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
-              },
-              correctAnswer: "c"
-          },
-          {   question: "Dummy Q19?",
-              answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
-              },
-              correctAnswer: "c"
-          },
-          {   question: "Dummy Q20?",
-              answers: {
-                a: "yes",
-                b: "no",
-                c: "maybe"
-              },
-              correctAnswer:"a"
-            }
   ];
 
 let artist80sQuestions = [
