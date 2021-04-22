@@ -23,17 +23,19 @@
             <i class="far fa-lightbulb" id="lightbulb"></i>
             <h4>Enter a username below and choose your quiz type to continue:</h4>
         </div>
-
+        <form>
         <div id="username-input">
-            <input id="username" placeholder="Username required" type="text" required>     
+            
+            <input id="username" placeholder="Username required" type="text" name="username" required> 
         </div>
 
         <div id="answer-butons" class="btn-grid">
                 <h4>Select your game type below to continue,<br> each quiz contains 15 Questions so lets see if you know your music!<br>Good Luck!</h4>
-                <button class="btn btn-lg" type="submit" onclick="runGeneralKnowGame()">General Knowledge</button>
-                <button class="btn btn-lg" type="submit" onclick="lyricsCategories()">_Missing Lyrics</button>
-                <button class="btn btn-lg" type="submit" onclick="artistCategories()">Name The Artist</button>
+                <button class="btn btn-lg" type="submit" id="runGeneralKnowGame">General Knowledge</button>
+                <button class="btn btn-lg" type="submit" id="lyricsCategories">_Missing Lyrics</button>
+                <button class="btn btn-lg" type="submit" id="artistCategories">Name The Artist</button>
          </div>
+        </form>
        
     </div>
 
