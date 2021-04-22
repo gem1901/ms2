@@ -6,337 +6,339 @@ let generalKnowledgeQuestions = [
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q2?",
+    }
+    ,{   question: "Dummy Q2?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q3?",
+    }
+    ,{   question: "Dummy Q3?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q4?",
+    }
+   ,{   question: "Dummy Q4?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q5?",
+    }
+    ,{   question: "Dummy Q5?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q6?",
+    }
+    ,{   question: "Dummy Q6?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q7?",
+    }
+    ,{   question: "Dummy Q7?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q8?",
+    }
+    ,{   question: "Dummy Q8?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q9?",
+    }
+    ,{   question: "Dummy Q9?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q10?",
+    }
+    ,{   question: "Dummy Q10?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q11?",
+    }
+    ,{   question: "Dummy Q11?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q12?",
+    }
+    ,{   question: "Dummy Q12?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q13?",
+    }
+    ,{   question: "Dummy Q13?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q14?",
+    }
+    ,{   question: "Dummy Q14?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q15?",
+    }
+    ,{   question: "Dummy Q15?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q16?",
+    }
+    ,{   question: "Dummy Q16?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q17?",
+    }
+    ,{   question: "Dummy Q17?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q18?",
+    }
+    ,{   question: "Dummy Q18?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q19?",
+    }
+    ,{   question: "Dummy Q19?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q20?",
+    }
+    ,{   question: "Dummy Q20?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy Q21?",
+    }
+    ,{   question: "Dummy Q21?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
-    {   question: "Dummy 22?",
+    }
+    ,{   question: "Dummy 22?",
         answers: {
           a: "yes",
           b: "no",
           c: "maybe"
         },
         correctAnswer: "c"
-    },
+    }
 ];
 
 let lyricsPreQuestions =[
-    {   question: "Dummy Q1?",
+    { question: "Dummy Q1?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q2?",
+    }
+    ,{   question: "Dummy Q2?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q3?",
+    }
+    ,{   question: "Dummy Q3?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q4?",
+    }
+    ,{   question: "Dummy Q4?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q5?",
+    }
+    ,{   question: "Dummy Q5?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q6?",
+    } 
+    ,{   question: "Dummy Q6?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q7?",
+    }
+    ,{   question: "Dummy Q7?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q8?",
+    }
+    ,{   question: "Dummy Q8?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q9?",
+    }
+    ,{   question: "Dummy Q9?",
+          answers: {
+            a: "yes",
+            b: "no",
+            c: "maybe"
+         },
+          correctAnswer: "c"
+    }
+    ,{   question: "Dummy Q10?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q10?",
+    }
+    ,{   question: "Dummy Q11?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q11?",
+    }
+    ,{   question: "Dummy Q12?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q12?",
+    }
+    {   question: "Dummy Q13?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q13?",
+    }
+    ,{   question: "Dummy Q14?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q14?",
+    }
+    ,{   question: "Dummy Q15?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q15?",
+    }
+    ,{   question: "Dummy Q16?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q16?",
+    }
+    ,{   question: "Dummy Q17?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q17?",
+    }
+    ,{   question: "Dummy Q18?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q18?",
+    }
+    ,{   question: "Dummy Q19?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q19?",
+    }
+    ,{   question: "Dummy Q20?",
           answers: {
             a: "yes",
             b: "no",
             c: "maybe"
           },
           correctAnswer: "c"
-      },
-      {   question: "Dummy Q20?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
-          },
-       ] ;
+        }
+    ];
     
        let lyricsPostQuestions =[
         {   question: "Dummy Q1?",
@@ -692,7 +694,7 @@ let lyricsPreQuestions =[
                 },
                 correctAnswer: "b"
             },
-          },
+          }
           {   question: "Name the artist who sang 'Blue Monday'88'?",
               answers: {
                 a: "New Order",
@@ -700,7 +702,7 @@ let lyricsPreQuestions =[
                 c: "The Stranglers"
               },
               correctAnswer: "a"
-          },
+          }
           {   question: "Name the artist who sang 'We Built This City'?",
               answers: {
                 a: "Bruce Springsteen",
@@ -708,7 +710,7 @@ let lyricsPreQuestions =[
                 c: "Starship"
               },
               correctAnswer: "c"
-          },
+          }
           {   question: "Name the artist who sang 'Girls Just Want To have Fun'?",
               answers: {
                 a: "Cyndi Lauper",
@@ -716,7 +718,7 @@ let lyricsPreQuestions =[
                 c: "Debbie Harris"
               },
               correctAnswer: "a"
-          },
+          }
           {   question: "Name the artist who sang 'You Got It'?",
               answers: {
                 a: "Bill Withers",
@@ -724,8 +726,7 @@ let lyricsPreQuestions =[
                 c: "Kenny Loggins"
               },
               correctAnswer: "b"
-          },
-        },
+          }
         {   question: "Name the artist who sang '99 Red Balloons'?",
             answers: {
               a: "Janet Jackson",
@@ -733,7 +734,7 @@ let lyricsPreQuestions =[
               c: "Nena"
             },
             correctAnswer: "c"
-        },
+        }
         {   question: "Name the artist who sang 'The Lion Sleeps Tonight'?",
             answers: {
               a: "Tight Fit",
@@ -1150,8 +1151,7 @@ let artist90sQuestions = [
       },
   ];
 
-  let artist00sQuestions = [
-      
+  let artist00sQuestions = [     
     {   question: "Name the artist who sang 'I'm Like A Bird'?",
           answers: {
             a: "All Saints",
@@ -1554,6 +1554,6 @@ let artist90sQuestions = [
         },
   ];
 
-  
+
 
           
