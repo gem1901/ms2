@@ -178,166 +178,231 @@ let generalKnowledgeQuestions = [
 ];
 
 let lyricsPreQuestions =[
-    { question: "Dummy Q1?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+  {   question: "Fill in the missing Journey lyric: 'A singer in a __ room, The smell of wine and cheap perfume'",
+            answers: {
+              a: "empty",
+              b: "smokey",
+              c: "errie"
+            },
+            correctAnswer:"b"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q2?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Cyndi Lauper lyric: 'And __, they wanna have fun, Oh girls just wanna have fun' ",
+            answers: {
+              a: "boys",
+              b: "ladies",
+              c: "girls"
+            },
+            correctAnswer:"c"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q3?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Whitney Houston lyric: 'Where do __ hearts go, Do they find they're way home'",
+            answers: {
+              a: "lonely",
+              b: "broken",
+              c: "weary"
+            },
+            correctAnswer:"b"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q4?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing ABBA lyric: 'Anybody could be that guy, The night is __, and the music's high",
+            answers: {
+              a: "young",
+              b: "bright",
+              c: "long"
+            },
+            correctAnswer:"a"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q5?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Elton John lyric: 'Hold me closer, timy dancer, Count the __ on the highway' ",
+            answers: {
+              a: "cars",
+              b: "headlights",
+              c: "people"
+            },
+            correctAnswer:"b"
           },
-          correctAnswer: "c"
-    } 
-    ,{   question: "Dummy Q6?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Neil Diamond lyric: 'Hands, touching hands, __ out, touching me, touching you' ",
+            answers: {
+              a: "hanging",
+              b: "leaning",
+              c: "reaching"
+            },
+            correctAnswer:"c"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q7?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Monkees lyric: 'Cheer up, sleepy __, What can it mean that to a daydream believer'",
+            answers: {
+              a: "Jean",
+              b: "Jane",
+              c: "Jude"
+            },
+            correctAnswer:"a"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q8?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing AC/DC lyric: 'Livin' easy, Lovin' free, Season ticket on a one way __'",
+            answers: {
+              a: "ticket",
+              b: "ride",
+              c: "flight"
+            },
+            correctAnswer:"b"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q9?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
-         },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q10?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Survivor lyric: 'It's the eye of the tiger, It's the __ of the fight' ",
+            answers: {
+              a: "night",
+              b: "fear",
+              c: "thrill"
+            },
+            correctAnswer:"c"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q11?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Nena lyric: '99 balloons, On they're way to the __ they were mistaken for UFOs from space'",
+            answers: {
+              a: "horizon",
+              b: "moon",
+              c: "heavens"
+            },
+            correctAnswer:"a"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q12?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Ben E. King lyric: 'No matter who you are, no matter where you go in life, You gon' need somebody to __ by you' ",
+            answers: {
+              a: "stay",
+              b: "stand",
+              c: "be"
+            },
+            correctAnswer:"b"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q13?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Tears for Fears lyric: 'Most of __, and of pleasure, Nothing ever lasts forever, Everybody wants to rule the world'",
+            answers: {
+              a: "pain",
+              b: "time",
+              c: "freedom"
+            },
+            correctAnswer:"c"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q14?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing John Travolta lyrics: 'Summer loving had me a __, Summer loving happened so fast'",
+            answers: {
+              a: "blast",
+              b: "last",
+              c: "tan"
+            },
+            correctAnswer:"a"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q15?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Bill Withers lyrics: 'Leon on me, when you're not __, I'll be your friend, i'll help you carry on'",
+            answers: {
+              a: "able",
+              b: "well",
+              c: "strong"
+            },
+            correctAnswer:"c"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q16?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Elton John lyric: 'And it's no sacrifice, just a simple __, It's two hearts living in two seperate worlds",
+            answers: {
+              a: "thing",
+              b: "word",
+              c: "song"
+            },
+            correctAnswer:"b"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q17?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Wham! lyric: 'Don't leave me hanging on like a __, Wake me up before you go-go'",
+            answers: {
+              a: "yo-yo",
+              b: "go-go",
+              c: "fool"
+            },
+            correctAnswer:"a"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q18?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Ray Parker Jnr lyric: 'If there's something wrong in your __, Who you gonna call? Ghostbusters!'",
+            answers: {
+              a: "living room",
+              b: "neighbourhood",
+              c: "house"
+            },
+            correctAnswer:"b"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q19?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Dolly Parton lyric: 'Barely getting by, it's all taking and no giving, They just use your __, and they never give you credit'",
+            answers: {
+              a: "mind",
+              b: "time",
+              c: "voice"
+            },
+            correctAnswer:"a"
           },
-          correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q20?",
-          answers: {
-            a: "yes",
-            b: "no",
-            c: "maybe"
+          {   question: "Fill in the missing Weather Girls lyric: 'Cause tonight for the first time, just about half past __' ",
+            answers: {
+              a: "9",
+              b: "10",
+              c: "11"
+            },
+            correctAnswer:"b"
           },
-          correctAnswer: "c"
-        }
+          {   question: "Fill in the missing Jackson 5 lyric: 'Don't blame it on the sunshine, Don't blame it on the moonlight, blame it on the __'",
+            answers: {
+              a: "DJ",
+              b: "music",
+              c: "boogie"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Dolly Parton lyric: 'Jolene, I'm begging of you please don't take my __",
+            answers: {
+              a: "man",
+              b: "money",
+              c: "land"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Celtic Woman lyric: 'Amazing grace, how sweet the sound, That saved a __ like me'",
+            answers: {
+              a: "mess",
+              b: "slave",
+              c: "wretch"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Blondie lyric: 'Once I had a love and it was a __, Soon turned out had a heart of glass'",
+            answers: {
+              a: "fast",
+              b: "gas",
+              c: "bad"
+            },
+            correctAnswer:"b"
+          },
+          {   question: "Fill in the missing Marvin Gaye lyrics: 'My love is alive, Way down in my heart, Although we are __ apart'",
+            answers: {
+              a: "miles",
+              b: "oceans",
+              c: "cities"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Pink Floyd lyric: 'Hey, __, leave those kids alone, All in all it's just another brick in the wall'",
+            answers: {
+              a: "man",
+              b: "people",
+              c: "teachers"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Eurythmics lyric: 'I travel the world and the seven __, Everybody's looking for something'",
+            answers: {
+              a: "wonders",
+              b: "seas",
+              c: "cities"
+            },
+            correctAnswer:"b"
+          },
+          {   question: "Fill in the missing Police lyric: 'Every __ you take, I'll be watching you'",
+            answers: {
+              a: "move",
+              b: "sound",
+              c: "step"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing ",
+            answers: {
+              a: "be",
+              b: "see",
+              c: "hear"
+            },
+            correctAnswer:"b"
+          },
+    
     ];
     
        let lyricsPostQuestions =[
@@ -437,7 +502,7 @@ let lyricsPreQuestions =[
               },
               correctAnswer: "b"
           },
-          {   question: "Fill in the missing Rascal Flatts lyric: 'If you're going my way, Well, I wanna __ it all night long",
+          {   question: "Fill in the missing Rascal Flatts lyric: 'If you're going my way, Well, I wanna __ it all night long'",
               answers: {
                 a: "plan",
                 b: "ride",
@@ -547,8 +612,207 @@ let lyricsPreQuestions =[
               b: "French",
               c: "Spanish"
             },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Miley Cyrus lyric: 'I hopped off the plane at LAX, With a dream and my __'",
+            answers: {
+              a: "best friend",
+              b: "cardigan",
+              c: "rucksack"
+            },
             correctAnswer:"b"
           },
+          {   question: "Fill in the missing Train lyric: 'Your sweet __, The smell of you in every single dream I dream'",
+            answers: {
+              a: "disposition",
+              b: "smile",
+              c: "moonbeam"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Maroon 5 lyric: 'I'm at a payphone, trying to call home, All of my __ I spent on you' ",
+            answers: {
+              a: "change",
+              b: "money",
+              c: "coins"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Nelly lyric: 'Promiscuous girl, you're __ me, You know what I want, and I got what you need' ",
+            answers: {
+              a: "flirting",
+              b: "robbing",
+              c: "teasing"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Tones and I lyric: 'They say oh my god I see the way you shine, Take your __, mydear, and place them both in mine' ",
+            answers: {
+              a: "heart",
+              b: "hand",
+              c: "arms"
+            },
+            correctAnswer:"b"
+          },
+          {   question: "Fill in the missing B.o.B lyric: 'Can we pretend that __ in the night sky are like shootin' stars, I could really use a wish right now, wish right now'",
+            answers: {
+              a: "airplanes",
+              b: "fireworks",
+              c: "rain drops"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Britney Spears lyric: 'My loneliness is killing me (and I), I must __ I still believe (still believe)' ",
+            answers: {
+              a: "say",
+              b: "confess",
+              c: "tell"
+            },
+            correctAnswer:"b"
+          },
+          {   question: "Fill in the missing Rednex lyric: 'If it ain'y been for Cotton-eye Joe, I'd been __ long time ago'",
+            answers: {
+              a: "married",
+              b: "happy",
+              c: "rich"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Vanilla Ice lyric: 'Something grabs a hold of me tightly, Flow like a __ daily and nightly' ",
+            answers: {
+              a: "fish",
+              b: "river",
+              c: "harpoon"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Aqua lyric: 'You can brush my hair, __ me everywhere, Imagination, life is your creation'",
+            answers: {
+              a: "take",
+              b: "undress",
+              c: "bring"
+            },
+            correctAnswer:"b"
+          },
+          {   question: "Fill in the missing Charli XCX lyric:'Boom clap, you make me feel __, Come on to me, come on to me'",
+            answers: {
+              a: "good",
+              b: "alive",
+              c: "great"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Beyonce lyric:'Everywhere I'm looking now, I'm surrounded by your __' ",
+            answers: {
+              a: "light",
+              b: "love",
+              c: "embrace"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing P!nk lyric:'So raise your glass if you are __, In all the right ways'",
+            answers: {
+              a: "beautiful",
+              b: "happy",
+              c: "wrong"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Taio Cruz lyric: 'I wanna __ and live my life, Singing ayo, baby, let's go' ",
+            answers: {
+              a: "celebrate",
+              b: "party",
+              c: "dance"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Coldplay lyric: 'When she was just a girl she expexted the world, But it blew away from her reach and the __ catch in her teeth'",
+            answers: {
+              a: "food",
+              b: "bullets",
+              c: "flies"
+            },
+            correctAnswer:"b"
+          },
+          {   question: "Fill in the missing The Fray lyric: 'He walks, you stay sit down, it's just a talk, He smiles __ back at you'",
+            answers: {
+              a: "politely",
+              b: "happily",
+              c: "honestly"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Snow Patrol lyric: 'If I lay here, If I just lay here, __ you lie with me and just forget the world?' ",
+            answers: {
+              a: "could",
+              b: "will",
+              c: "would"
+            },
+            correctAnswer:"c"
+          },{   question: "Fill in the missing Lil Naz X lyric: 'Call me when you want, call me when you need, Call me in the __, I'll be on my way' ",
+          answers: {
+            a: "office",
+            b: "morning",
+            c: "night"
+          },
+          correctAnswer:"b"
+        },
+        {   question: "Fill in the missing Ed Sheeran lyric: 'The club isn't the best place to find a lover, So the __ is where I go'  ",
+            answers: {
+              a: "bar",
+              b: "street",
+              c: "dancefloor"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Dua Lipa lyric: 'You know he's only __ because he's drunk and alone, Two: Don't let him in'",
+            answers: {
+              a: "texting",
+              b: "interested",
+              c: "calling"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Destiny's Child lyric: 'I'm a survivor , I'm not gon' give up, I'm not gon' stop, I'm gon' __ harder'",
+            answers: {
+              a: "drive",
+              b: "work",
+              c: "run"
+            },
+            correctAnswer:"b"
+          },
+          {   question: "Fill in the missing Shania Twain lyric: 'The best thing about bein' a woman, Is the __ to have a little fun' ",
+            answers: {
+              a: "spur",
+              b: "initiative",
+              c: "prerogative"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Mumford & Sons lyric: 'Rate yourself and rake yourself, Take all the __ you have left' ",
+            answers: {
+              a: "courage",
+              b: "strength",
+              c: "money"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Will Smith lyric: 'In west __, born and raised' ",
+            answers: {
+              a: "California",
+              b: "Brooklyn",
+              c: "Philadelphia"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Kings of Leon lyric: 'Stranded in this __ town'",
+            answers: {
+              a: "creepy",
+              b: "spooky",
+              c: "lonely"
+            },
+            correctAnswer:"b"
+          }
   ];
 
 let artist80sQuestions = [
