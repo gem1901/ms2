@@ -21,6 +21,7 @@ img {
   width: 100%;
   height: 30vh;
   background-color: #a2b9ee;
+  position: sticky; top: 0; 
 }
 
 #logo {
@@ -32,83 +33,39 @@ img {
     position: relative;
     margin: auto;
 }
-*, *::before, *::after{
-  box-sizing: border-box;
-  font-family: 'Noto Sans JP', sans-serif;
-}
-
-:root{
-  --hue-neutral:#a2b9ee;
-  --hue-correct:#33cc66;
-  --hue-wrong:#dd0000;
-
-}
-
-body{
-  --hue:var(--hue-neutral);
-  padding: 0;
-  margin: 0;
-  display: flex;
-  width: 100vw;
-  height: 70vh;
-  justify-content: center;
-  align-items: center;
-
-
-}
-body.correct {
-  --hue:var(--hue-correct);
-
-}
-body.wrong {
-  --hue:var(--hue-wrong);
-
-}
-
-.game-container {
-  width: 800px;
-  max-width: 80%;
-  background-color: white;
-  border-radius: 5px;
-  padding: 5px;
-  box-shadow: 0 0 10px 2px;
-}
-.btn-grid{
-  display: grid;
-  gap: 5px;
-  margin: 20px 0;
-}
-.btn{
-  --hue:var(--hue-neutral);
-  border:1px solid #616161;
-  background-color: #adeee2;
-  border-radius: 5px;
-  padding: 5px 5px;
-  outline: none;
-}
-.btn:hover{
-  border-color: yellow;
-}
-.btn.correct{
-  --hue:var(--hue-correct);
-
-}
-.btn.wrong{
-  --hue:var(--hue-wrong);
-
-}
-.start-btn, .next-btn{
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding: 10px 20px;
-}
-.controls{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .hide{
   display: none;
 }
-
-
+#game-container {
+  background-color: #a2b9ee;
+  width: 100%;
+  height: 75vh;
+  position: fixed;
+  font-family: 'Dosis', sans-serif;
+  color: #3a3b3c;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+#welcome-message {
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 1px;
+}
+#username {
+  height: 40px;
+  width: fit-content;
+  padding: 15px;
+  margin: 20px 20px 40px 20px;
+}
+.btn {
+  padding: 15px;
+  margin: 15px;
+  background-color: #a2dcee!important;
+  font-size: larger;
+}
+#lightbulb {
+  font-size: 30px;
+}
+div .btn{
+  letter-spacing: 1px;
+}

@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c34658c78b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Music Genie | Test your music knowledge!</title>
 </head>
@@ -17,19 +18,23 @@
     </div>
 
     <div id="game-container">
-        <div id="question-container" class="hide">
-            <div id="question">Question</div>
-            <div id="answer-butons" class="btn-grid">
-                <button class="btn">A:</button>
-                <button class="btn">B:</button>
-                <button class="btn">C:</button>
+        <div id="welcome-message">
+            <h2>Welcome to Music Genie,<br> a music knowledge quiz perfect for when a fun quick distraction is needed!</h2><br>
+            <i class="far fa-lightbulb" id="lightbulb"></i>
+            <h4>Enter a username below and choose your quiz type to continue:</h4>
+        </div>
 
-            </div>
+        <div id="username-input">
+            <input id="username" placeholder="Username required" type="text" required>     
         </div>
-        <div id="controls">
-            <button id="start-btn" class="start-btn btn">Start</button>
-            <button id="next-btn" class="next-btn btn hide">Next</button>
-        </div>
+
+        <div id="answer-butons" class="btn-grid">
+                <h4>Select your game type below to continue,<br> each quiz contains 15 Questions so lets see if you know your music!<br>Good Luck!</h4>
+                <button class="btn btn-lg" type="submit" onclick="runGeneralKnowGame()">General Knowledge</button>
+                <button class="btn btn-lg" type="submit" onclick="lyricsCategories()">_Missing Lyrics</button>
+                <button class="btn btn-lg" type="submit" onclick="artistCategories()">Name The Artist</button>
+         </div>
+       
     </div>
 
 
