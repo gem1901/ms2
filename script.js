@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-   
+document.addEventListener("DOMContentLoaded", function () {  
 } )
 document.getElementById("lyricsCategories").addEventListener("click", lyricsCategories());
 function lyricsCategories() {
@@ -12,8 +11,8 @@ function lyricsCategories() {
         </div>
         <div id="answer-butons" class="btn-grid">
                 <h4>The quiz will begin once you select your category, good luck!</h4>
-                <button class="btn btn-lg" id="pre90s">LYRICS PRE 1990</button>
-                <button class="btn btn-lg" id="post90s">LYRICS POST 1990</button>       
+                <button class="btn btn-lg" id="pre90s" type="submit" onclick="runPre90sGame()">LYRICS PRE 1990</button>
+                <button class="btn btn-lg" id="post90s" type="submit" onclick="runPost90sGame()">LYRICS POST 1990</button>       
          </div>`;
 
 }
@@ -54,12 +53,13 @@ for(let q=[],i=0;i<15;++i) q[i]=i;
     <input type="radio" id="optC" name="choices">C</input>
 
     <div id="answer-butons" class="btn-grid">
-                <h2>Please select your answer above and click next to continue:</h2>
+                <h2>Please select your answer above and click next:</h2>
                 <button class="btn btn-lg" id="next">NEXT</button>
     </div>
   </form> 
 </div>
   `;
+  
 }
 
 document.getElementById("post90s").addEventListener("click", runPost90sGame());
