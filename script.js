@@ -12,8 +12,8 @@ function lyricsCategories() {
         </div>
         <div id="answer-butons" class="btn-grid">
                 <h4>The quiz will begin once you select your category, good luck!</h4>
-                <button class="btn btn-lg" id="pre90s">Lyrics Pre 1990</button>
-                <button class="btn btn-lg" id="post90s">Lyrics Post 1990</button>       
+                <button class="btn btn-lg" id="pre90s">LYRICS PRE 1990</button>
+                <button class="btn btn-lg" id="post90s">LYRICS POST 1990</button>       
          </div>`;
 
 }
@@ -33,45 +33,31 @@ function artistCategories() {
                 <button class="btn btn-lg" id="00s">00s</button>       
          </div>`;
 }
-/*
-function runGeneralKnowGame() {
-  for (var a=[],i=0;i<15;++i) a[i]=i;
-
-function shuffle(array) {
-  var tmp, current, top = array.length;
-  if(top) while(--top) {
-    current = Math.floor(Math.random() * (top + 1));
-    tmp = array[current];
-    array[current] = array[top];
-    array[top] = tmp;
-  }
-  return array;
-}
-
-a = shuffle(a);
-*/
 //to create an array of 15 unique nums to pull questions from array of 50 questions
 let uniques = chance.unique(chance.natural, 15, {min: 0, max: 49});
-
-
-
 
 
 document.getElementById("pre90s").addEventListener("click", runPre90sGame());
 function runPre90sGame() {
 let q = uniques;
-let currentQuestion = {lyricsPreQuestions[q[i]]}
-for(let i=0; i<15;i++)
+let currentQuestion = {lyricsPreQuestions}
+for(let q=[],i=0;i<15;++i) q[i]=i;
 
  document.getElementById("game-container").innerHTML=`<div id="welcome-message">
  <i class="far fa-lightbulb" id="lightbulb"></i>
- <h3 id="question"></h3><br>
+ <h3 id="question">Question</h3><br>
 </div>
 <div id="answer-choices">
   <form>
-    
-  </form>
-      
+    <input type="radio" id="optA" name="choices">A</input>
+    <input type="radio" id="optB" name="choices">B</input>
+    <input type="radio" id="optC" name="choices">C</input>
+
+    <div id="answer-butons" class="btn-grid">
+                <h2>Please select your answer above and click next to continue:</h2>
+                <button class="btn btn-lg" id="next">NEXT</button>
+    </div>
+  </form> 
 </div>
   `;
 }
