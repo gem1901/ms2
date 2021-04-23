@@ -1,182 +1,3 @@
-let generalKnowledgeQuestions = [
-    {   question: "What was the name of Madonna's first studio album?",
-        answers: {
-          a: "Like A Prayer",
-          b: "Hoilday",
-          c: "Madonna"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Ringo Star was not the original drummer for the Beatles - but who was?",
-        answers: {
-          a: "Tom Carter",
-          b: "Pete Best",
-          c: "Roger Moore"
-        },
-        correctAnswer: "b"
-    }
-    ,{   question: "Which famous singer is the sister of the R'n'B artist Solange?",
-        answers: {
-          a: "Beyonce",
-          b: "Rihanna",
-          c: "Nicki Minaj"
-        },
-        correctAnswer: "a"
-    }
-   ,{   question: "Name the singer who is tho only person to have performed more than one James Bond theme song?",
-        answers: {
-          a: "Adele",
-          b: "Tina Turner",
-          c: "Shirley Bassey"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "How long did Prince's Purple Rain album stay in the US charts?",
-        answers: {
-          a: "122 weeks",
-          b: "76 weeks",
-          c: "154 weeks"
-        },
-        correctAnswer: "a"
-    }
-    ,{   question: "Which British band released 'You're Gorgeous' in 1996?",
-        answers: {
-          a: "Blur",
-          b: "The Buggles",
-          c: "Babybird"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Who were the original band to release Wet Wet Wet's big hit 'Love Is All Around'?",
-        answers: {
-          a: "The Hollys",
-          b: "The Troggs",
-          c: "The Hoggs"
-        },
-        correctAnswer: "b"
-    }
-    ,{   question: "Dummy Q8?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q9?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q10?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q11?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q12?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q13?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q14?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q15?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q16?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q17?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q18?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q19?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q20?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy Q21?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-    ,{   question: "Dummy 22?",
-        answers: {
-          a: "yes",
-          b: "no",
-          c: "maybe"
-        },
-        correctAnswer: "c"
-    }
-];
-
 let lyricsPreQuestions =[
   {   question: "Fill in the missing Journey lyric: 'A singer in a __ room, The smell of wine and cheap perfume'",
             answers: {
@@ -394,18 +215,121 @@ let lyricsPreQuestions =[
             },
             correctAnswer:"c"
           },
-          {   question: "Fill in the missing ",
+          {   question: "Fill in the missing Frank Sinatra lyric: 'These vegabond shoes, they are longing to __, Right through the very heart of it, New York, New York",
             answers: {
-              a: "be",
-              b: "see",
-              c: "hear"
+              a: "dance",
+              b: "stray",
+              c: "stay"
             },
             correctAnswer:"b"
           },
-    
+          {   question: "Fill in the missing Katrina and The Whale lyric: 'Now every time I go for the __, Gotta hold myself down'",
+            answers: {
+              a: "mailbox",
+              b: "gym",
+              c: "telephone"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Bobby Day lyric: 'All the little birds on Jaybird Street, Love to hear the __ go tweet tweet tweet'",
+            answers: {
+              a: "bluebird",
+              b: "chicks",
+              c: "robin"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Elvis Presley lyric: '__ in the whole cell block, Was dancin' to the Jailhouse Rock' ",
+            answers: {
+              a: "People",
+              b: "Everybody",
+              c: "Convicts"
+            },
+            correctAnswer:"b"
+          },
+          {   question: "Fill in the missing Stevie Wonder lyrics: 'Isn't she lovley? Isn't she __?'",
+            answers: {
+              a: "beautiful",
+              b: "wonderful",
+              c: "faithful"
+            },
+            correctAnswer:"b"
+          },
+          {   question: "Fill in the missing Queen lyrics: ''Oh you gonna let it all hang out, ___ girls you make the rocking world go round'",
+            answers: {
+              a: "Fat-bottomed",
+              b: "Flat-chested",
+              c: "Beer-loving"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Simon and Garfunkel lyric: 'Because a vision softly creeping, Left it's __ while I was sleeping'",
+            answers: {
+              a: "thoughts",
+              b: "song",
+              c: "seeds"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Bryan Adams lyrics: 'Me and the guys from school, Had a __ and tried real hard'",
+            answers: {
+              a: "band",
+              b: "car",
+              c: "game"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Billy Joel lyrics: 'She's getting tried of her high-class __, And all her presents from her uptown boys'",
+            answers: {
+              a: "clothes",
+              b: "toys",
+              c: "car"
+            },
+            correctAnswer:"b"
+          },
+          {   question: "Fill in the missing Bob Dylan lyric: 'Stand upright and be strong, May you stay forever __'",
+            answers: {
+              a: "brave",
+              b: "together",
+              c: "young"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Dead or Alive lyric: 'You soin me right 'round baby, Right 'round like a __, baby'",
+            answers: {
+              a: "ring",
+              b: "record",
+              c: "radio"
+            },
+            correctAnswer:"b"
+          },
+          {   question: "Fill in the missing Big Joe Turner lyric: 'Shake, rattle and roll, shake, rattle and roll, Well, you won't do right to save your __ soul'",
+            answers: {
+              a: "doggone",
+              b: "damn",
+              c: "beautiful"
+            },
+            correctAnswer:"a"
+          },
+          {   question: "Fill in the missing Van Morrison lyric: 'Standing in the sunlight laughing, hiding 'hind a __ wall' ",
+            answers: {
+              a: "schoolhouse",
+              b: "church",
+              c: "rainbows"
+            },
+            correctAnswer:"c"
+          },
+          {   question: "Fill in the missing Bruce Springsteen lyric: 'You can't start a fire without a spark, This __ for hire, Even if we are just dancing in the dark'",
+            answers: {
+              a: "car's",
+              b: "gun's",
+              c: "man's"
+            },
+            correctAnswer:"b"
+          } 
     ];
     
-       let lyricsPostQuestions =[
+let lyricsPostQuestions =[
         {   question: "Fill in the missing Oasis lyric:'Today is gonna be the day, That they're gonna __ it back to you'",
               answers: {
                 a: "sing",
@@ -1861,7 +1785,7 @@ let artist90sQuestions = [
             c: "Anatasia"
           },
           correctAnswer: "c"
-        },
+        }
   ];
 
 
