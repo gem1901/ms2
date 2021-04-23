@@ -4,7 +4,7 @@ document.getElementById("lyricsCategories").addEventListener("click", lyricsCate
 function lyricsCategories() {
   document.getElementById("game-container").innerHTML=`
   <div id="welcome-message">
-            <h1>_Missing Lyrics:</h1><br>
+            <h1>_Missing Lyrics<i class="fas fa-music" id="musicNote"></i></h1><br>
             <i class="far fa-lightbulb" id="lightbulb"></i>
             <h3>Choose your category below to start quiz:</h3><br>
             
@@ -21,42 +21,39 @@ document.getElementById("artistCategories").addEventListener("click", artistCate
 function artistCategories() {
   document.getElementById("game-container").innerHTML=`
   <div id="welcome-message">
-           <h1>Name The Artist:</h1><br>
+           <h1>Name The Artist<i class="fas fa-guitar" id="guitar"></i></h1><br>
            <i class="far fa-lightbulb" id="lightbulb"></i>
            <h3>Choose your category below to start quiz:</h3><br>
   </div>
   <div id="answer-butons" class="btn-grid">
                 <h4>The quiz will begin once you select your category, good luck!</h4>
-                <button class="btn btn-lg" id="80s">80s</button>
-                <button class="btn btn-lg" id="90s">90s</button>
-                <button class="btn btn-lg" id="00s">00s</button>       
+                <button class="btn btn-lg" id="80s" onclick="run80sGame()">80s</button>
+                <button class="btn btn-lg" id="90s" onclick="run90sGame()">90s</button>
+                <button class="btn btn-lg" id="00s" onclick="run00sGame()">00s</button>       
          </div>`;
 }
+
 //to create an array of 15 unique nums to pull questions from array of 50 questions
 let uniques = chance.unique(chance.natural, 15, {min: 0, max: 49});
 
 
 document.getElementById("pre90s").addEventListener("click", runPre90sGame());
 function runPre90sGame() {
-let q = uniques;
-let currentQuestion = {lyricsPreQuestions}
-for(let q=[],i=0;i<15;++i) q[i]=i;
+  let uniqueQ = chance.unique(chance.natural, 15, {min: 0, max: 49});
+  let q1 = uniqueQ[0].num 
+  for(let q=[],i=0;i<15;++i) q[i]=i;
 
  document.getElementById("game-container").innerHTML=`<div id="welcome-message">
  <i class="far fa-lightbulb" id="lightbulb"></i>
  <h3 id="question">Question</h3><br>
 </div>
 <div id="answer-choices">
-  <form>
-    <input type="radio" id="optA" name="choices">A</input>
-    <input type="radio" id="optB" name="choices">B</input>
-    <input type="radio" id="optC" name="choices">C</input>
-
-    <div id="answer-butons" class="btn-grid">
-                <h2>Please select your answer above and click next:</h2>
-                <button class="btn btn-lg" id="next">NEXT</button>
-    </div>
-  </form> 
+  <button id="btn0" class="btn btn-lg"><span id="choice0"></span></button>
+  <button id="btn1" class="btn btn-lg"><span id="choice1"></span></button>
+  <button id="btn2" class="btn btn-lg"><span id="choice2"></span></button>
+</div>
+<div>
+  <p id="progress">Question x of 15</p>
 </div>
   `;
   
